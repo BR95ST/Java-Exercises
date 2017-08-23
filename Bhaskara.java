@@ -19,17 +19,14 @@ public class Bhaskara{
 	}
 	
 	public static double delta(double a, double b, double c){
-		double delta = Math.pow(b,2) - 4 * a * c;
-		return delta;
+		return Math.pow(b,2) - 4 * a * c;
 	}
 	
 	public static double raizX1(double d, double a, double b){
-		double x1 = (-b + Math.sqrt(d))/(2 * a);
-		return x1;
+		return (-b + Math.sqrt(d))/(2 * a);
 	}
 	
 	public static double raizX2(double d, double a, double b){
-		double x2 = (-b - Math.sqrt(d))/(2 * a);
-		return x2;
+		return (-b - Math.sqrt(d))/(2 * a);
 	}	
 }
